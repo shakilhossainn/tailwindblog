@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UstudyBD Blog</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="font-poppins text-gray-600">
+    <nav class="bg-white shadow-2xl">
+      <div class="container mx-auto px-4 flex items-center py-3">
+        <div class="w-40">
+          <a href="index.html">
+            <!-- <img src="/src/images/logo.png" alt="logo" class="w-full"> -->
+            <h1 class="text-2xl font-bold">Logo</h1>
+          </a>
+        </div>
+        <div class="ml-12 flex space-x-5">
+          <a
+            href="index.html"
+            class="flex items-center font-semibold text-sm hover:text-blue-500 transition"
+          >
+            <span class="mr-2">
+              <i class="fas fa-home"></i>
+            </span>
+            Home
+          </a>
+          <a
+            href="index.html"
+            class="flex items-center font-semibold text-sm hover:text-blue-500 transition"
+          >
+            <span class="mr-2">
+              <i class="fas fa-file-alt"></i>
+            </span>
+            About
+          </a>
+          <a
+            href="index.html"
+            class="flex items-center font-semibold text-sm hover:text-blue-500 transition"
+          >
+            <span class="mr-2">
+              <i class="fas fa-phone"></i>
+            </span>
+            Contact Us
+          </a>
+        </div>
+        <div class="relative ml-auto">
+          <span class="absolute left-3 top-2 text-sm text-gray-500">
+            <i class="fas fa-search"></i>
+          </span>
+          <input
+            type="text"
+            name="search"
+            class="block w-full border-none rounded-3xl pl-11 pr-2 py-2 focus:outline-none bg-gray-100 text-sm text-gray-700"
+            placeholder="Search Post......."
+          />
+        </div>
+        <div class="ml-5">
+          <a
+            href=""
+            class="flex items-center text-sm font-semibold hover:text-blue-500 transition"
+          >
+            <span class="mr-2">
+              <i class="fas fa-user"></i>
+            </span>
+            login/Register
+          </a>
+        </div>
+      </div>
+    </nav>
+    <main class="py-6 bg-gray-100 min-h-screen">
+      <div class="container mx-auto px-4 flex">
+        <div class="w-3/12">
+          <div class="bg-white shadow-sm rounded-sm p-4">
+            <h3 class="text-xl font-semibold text-gray-700 font-roboto mb-3">
+              Categories
+            </h3>
+
+            <!-- categoryies start  here  -->
+            <div class="text-gray-700 space-y-2">
+              <a
+                href=""
+                class="flex items-center text-semibold leading-4 p-1 uppercase text-sm hover:text-blue-500 transition"
+              >
+                <span class="mr-2">
+                  <i class="fas fa-folder-open"></i>
+                </span>
+                <span>php</span>
+                <span class="font-normal ml-auto">[12]</span>
+              </a>
+            </div>
+            <div class="text-gray-700 space-y-2">
+              <a
+                href=""
+                class="flex items-center text-semibold leading-4 p-1 uppercase text-sm hover:text-blue-500 transition"
+              >
+                <span class="mr-2">
+                  <i class="fas fa-folder-open"></i>
+                </span>
+                <span>javascript</span>
+                <span class="font-normal ml-auto">[12]</span>
+              </a>
+            </div>
+            <div class="text-gray-700 space-y-2">
+              <a
+                href=""
+                class="flex items-center text-semibold leading-4 p-1 uppercase text-sm hover:text-blue-500 transition"
+              >
+                <span class="mr-2">
+                  <i class="fas fa-folder-open"></i>
+                </span>
+                <span>python</span>
+                <span class="font-normal ml-auto">[12]</span>
+              </a>
+            </div>
+            <div class="text-gray-700 space-y-2">
+              <a
+                href=""
+                class="flex items-center text-semibold leading-4 p-1 uppercase text-sm hover:text-blue-500 transition"
+              >
+                <span class="mr-2">
+                  <i class="fas fa-folder-open"></i>
+                </span>
+                <span>vue.js</span>
+                <span class="font-normal ml-auto">[12]</span>
+              </a>
+            </div>
+            <div class="text-gray-700 space-y-2">
+              <a
+                href=""
+                class="flex items-center text-semibold leading-4 p-1 uppercase text-sm hover:text-blue-500 transition"
+              >
+                <span class="mr-2">
+                  <i class="fas fa-folder-open"></i>
+                </span>
+                <span>react.js</span>
+                <span class="font-normal ml-auto">[12]</span>
+              </a>
+            </div>
+            <div class="text-gray-700 space-y-2">
+              <a
+                href=""
+                class="flex items-center text-semibold leading-4 p-1 uppercase text-sm hover:text-blue-500 transition"
+              >
+                <span class="mr-2">
+                  <i class="fas fa-folder-open"></i>
+                </span>
+                <span>Laravel</span>
+                <span class="font-normal ml-auto">[12]</span>
+              </a>
+            </div>
+            <div class="text-gray-700 space-y-2">
+              <a
+                href=""
+                class="flex items-center text-semibold leading-4 p-1 uppercase text-sm hover:text-blue-500 transition"
+              >
+                <span class="mr-2">
+                  <i class="fas fa-folder-open"></i>
+                </span>
+                <span>django</span>
+                <span class="font-normal ml-auto">[12]</span>
+              </a>
+            </div>
+            <!-- categoryies end  here  -->
+          </div>
+          <div class="bg-white rounded-sm shadow-sm p-4 mt-6">
+            <h3 class="text-xl font-semibold text-gray-700 font-roboto mb-3">
+              Random Post
+            </h3>
+            <!-- random post start here -->
+            <div class="space-y-2">
+              <a href="#" class="flex group">
+                <div class="flex-shrink-0">
+                  <img
+                    src="/src/images/img-1.jpg"
+                    alt="img"
+                    class="w-20 h-14 rounded object-cover"
+                  />
+                </div>
+                <div class="flex-grow pl-3">
+                  <h5
+                    class="text-sm leading-5 fort-roboto font-semibold group-hover:text-blue-500 transition"
+                  >
+                    Lorem ipsum dolor sit amet at atque excepturi
+                  </h5>
+                  <div class="flex text-gray-400 text-sm items-center">
+                    <span class="mr-1 text-xs">
+                      <i class="fas fa-clock"></i>
+                    </span>
+                    jan 1, 2021
+                  </div>
+                </div>
+              </a>
+
+              <a href="#" class="flex group">
+                <div class="flex-shrink-0">
+                  <img
+                    src="/src/images/img-2.jpg"
+                    alt="img"
+                    class="w-20 h-14 rounded object-cover"
+                  />
+                </div>
+                <div class="flex-grow pl-3">
+                  <h5
+                    class="text-sm leading-5 fort-roboto font-semibold group-hover:text-blue-500 transition"
+                  >
+                    Lorem ipsum dolor sit amet Saepe sequi sed unde!
+                  </h5>
+                  <div class="flex text-gray-400 text-sm items-center">
+                    <span class="mr-1 text-xs">
+                      <i class="fas fa-clock"></i>
+                    </span>
+                    jan 1, 2021
+                  </div>
+                </div>
+              </a>
+
+              <a href="#" class="flex group">
+                <div class="flex-shrink-0">
+                  <img
+                    src="/src/images/img-3.jpg"
+                    alt="img"
+                    class="w-20 h-14 rounded object-cover"
+                  />
+                </div>
+                <div class="flex-grow pl-3">
+                  <h5
+                    class="text-sm leading-5 fort-roboto font-semibold group-hover:text-blue-500 transition"
+                  >
+                    Lorem ipsum dolor sit amet quo cumque officia saepe?
+                  </h5>
+                  <div class="flex text-gray-400 text-sm items-center">
+                    <span class="mr-1 text-xs">
+                      <i class="fas fa-clock"></i>
+                    </span>
+                    jan 1, 2021
+                  </div>
+                </div>
+              </a>
+            </div>
+            <!-- random post end here -->
+          </div>
+        </div>
+        <div class="w-6/12 mx-6">
+          <!-- recent content start here  -->
+          <div class="grid grid-cols-1 gap-4">
+            <div class="bg-white p-4 shadow-sm rounded-sm">
+              <img
+                src="src/images/img-1.jpg"
+                alt="post_image"
+                class="w-full h-54 object-cover rounded"
+              />
+              <div class="flex mt-2 space-x-3">
+                <div
+                  class="flex items-center text-gray-400 text-sm uppercase"
+                >
+                  <a href="" class="hover:text-blue-500">
+                    <span class="mr-2 text-xs">
+                      <i class="fas fa-user"></i>
+                    </span>
+                    Shakil
+                  </a>
+                </div>
+                         <div class="flex items-center text-gray-400 text-sm">
+                        <span class="mr-2 text-xs">
+                          <i class="fas fa-heart"></i>
+                        </span>
+                        12
+                      </div>
+                <div class="flex items-center text-gray-400 text-sm">
+                  <span class="mr-2 text-xs">
+                    <i class="fas fa-clock"></i>
+                  </span>
+                  June 11 ,2021
+                </div>
+                
+           
+                    <div class="flex items-center text-gray-400 text-sm">
+                        <span class="mr-2 text-xs">
+                          <i class="fas fa-eye"></i>
+                        </span>
+                        100
+                      </div>
+                          
+              </div>
+              <div class="mt-3 border-b-2 border-dotted border-gray-200 mb-2">
+                <h2 class="text-2xl text-justify font-semibold text-gray-700 font-roboto mb-6">
+                  Lorem ipsum dolor sit amet adipisicing elit sit amet consectetur adipisicing elit
+                </h2>
+                <p class="text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, magni possimus. Tempora, optio, veritatis nostrum provident repellendus ab tenetur quis unde, quas cupiditate quisquam commodi accusamus reiciendis odio. Cupiditate, excepturi.</p>
+       
+              </div>
+              <div class="flex text-gray-400 text-2xl justify-between">
+                <div class="">
+                  <i class="far fa-heart"></i>
+                </div>
+                <div class="">
+                  <i class="far fa-share-square"></i>
+                </div>
+              </div>
+             
+            </div>
+            <div class="bg-white w-full uppercase text-xl font-roboto text-black font-bold mt-3 p-2">
+               Related Post
+            </div>
+            <!-- related post start  -->
+            <div class="grid grid-cols-3 gap-2">
+
+                <div class="bg-white p-4 shadow-sm rounded-sm">
+                    <a href="post.html" class="overflow-hidden block">
+                        <img src="src/images/img-1.jpg" alt="post_image" class="w-full h-54 object-cover rounded transform hover:scale-110 transition duration-500">
+                    </a>
+                    <div class="mt-3 border-b-2 border-dotted border-gray-200">
+                        <a href="post.html">
+                            <h2 class="text-sm font-semibold text-gray-700 font-roboto hover:text-blue-700 transition text-justify">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            </h2>
+                        </a>
+                        <div class="flex mt-2 space-x-3">
+                            <div class="flex items-center text-gray-400 text-xxs uppercase">
+                                <a href="" class="hover:text-blue-500">
+                                    <span class="mr-2 text-xs">
+                                        <i class="fas fa-user"></i>
+                                    </span>
+                                    Shakil
+                                </a>
+                            </div>
+                            <div class="flex items-center text-gray-400 text-xxs"> 
+                                    <span class="mr-2 text-xs">
+                                        <i class="fas fa-clock"></i>
+                                    </span>
+                                    June 11 ,2021 
+                            </div>
+                            
+                        </div>
+                    </div>
+                  
+                </div>
+
+                <div class="bg-white p-4 shadow-sm rounded-sm">
+                    <a href="post.html" class="overflow-hidden block">
+                        <img src="src/images/img-1.jpg" alt="post_image" class="w-full h-54 object-cover rounded transform hover:scale-110 transition duration-500">
+                    </a>
+                    <div class="mt-3 border-b-2 border-dotted border-gray-200">
+                        <a href="post.html">
+                            <h2 class="text-sm font-semibold text-gray-700 font-roboto hover:text-blue-700 transition text-justify">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            </h2>
+                        </a>
+                        <div class="flex mt-2 space-x-3">
+                            <div class="flex items-center text-gray-400 text-xxs uppercase">
+                                <a href="" class="hover:text-blue-500">
+                                    <span class="mr-2 text-xs">
+                                        <i class="fas fa-user"></i>
+                                    </span>
+                                    Shakil
+                                </a>
+                            </div>
+                            <div class="flex items-center text-gray-400 text-xxs"> 
+                                    <span class="mr-2 text-xs">
+                                        <i class="fas fa-clock"></i>
+                                    </span>
+                                    June 11 ,2021 
+                            </div>
+                            
+                        </div>
+                    </div>
+                  
+                </div>
+
+                <div class="bg-white p-4 shadow-sm rounded-sm">
+                    <a href="post.html" class="overflow-hidden block">
+                        <img src="src/images/img-1.jpg" alt="post_image" class="w-full h-54 object-cover rounded transform hover:scale-110 transition duration-500">
+                    </a>
+                    <div class="mt-3 border-b-2 border-dotted border-gray-200">
+                        <a href="post.html">
+                            <h2 class="text-sm font-semibold text-gray-700 font-roboto hover:text-blue-700 transition text-justify">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            </h2>
+                        </a>
+                        <div class="flex mt-2 space-x-3">
+                            <div class="flex items-center text-gray-400 text-xxs uppercase">
+                                <a href="" class="hover:text-blue-500">
+                                    <span class="mr-2 text-xs">
+                                        <i class="fas fa-user"></i>
+                                    </span>
+                                    Shakil
+                                </a>
+                            </div>
+                            <div class="flex items-center text-gray-400 text-xxs"> 
+                                    <span class="mr-2 text-xs">
+                                        <i class="fas fa-clock"></i>
+                                    </span>
+                                    June 11 ,2021 
+                            </div>
+                            
+                        </div>
+                    </div>
+                  
+                </div>
+              
+            </div>
+            <!-- related post end  -->
+            <div class="bg-white w-full mt-4 p-3">
+                <textarea name="" class="w-full bg-gray-200 p-2 focus:outline-none" placeholder="Type Your Comment......"></textarea>
+               <div class="flex justify-between">
+                   <div class="flex">
+                    <div class="img">
+                            <img src="src/images/img-4.jpg" alt="profile_image" class="w-8 h-8 rounded-full">
+                    </div>
+                    <div class="">
+
+                    </div>
+                   </div>
+                   <div class="bg-black text-white p-1 rounded">
+                    <button>submit</button>
+                   </div>
+               </div>
+            </div>
+          </div>
+          <!-- recent content end here  -->
+        </div>
+        <div class="w-3/12">
+          <div class="bg-white shadow-sm rounded-sm p-4">
+            <h3 class="text-xl font-semibold text-gray-700 font-roboto mb-3">
+              Follow Us Our Social Links
+            </h3>
+
+            <!-- social links start  here  -->
+            <div class="text-gray-700 space-y-2">
+              <div class="flex justify-between text-3xl">
+                <div class="text-blue-900 hover:text-blue-800 transition">
+                  <a
+                    href="https://www.facebook.com/shakilhossain.cse"
+                    target="_blank"
+                  >
+                    <i class="fab fa-facebook-square"></i>
+                  </a>
+                </div>
+                <div class="text-blue-700 hover:text-blue-600 transition">
+                  <a href="#">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </div>
+                <div class="text-indigo-400 hover:text-blue-300 transition">
+                  <a href="#">
+                    <i class="fab fa-twitter-square"></i>
+                  </a>
+                </div>
+                <div class="text-red-700 hover:text-red-600 transition">
+                  <a href="#">
+                    <i class="fab fa-youtube-square"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- social links end  here  -->
+          </div>
+
+          <div class="bg-white rounded-sm shadow-sm p-4 mt-6">
+            <h3 class="text-xl font-semibold text-gray-700 font-roboto mb-3">
+              Popular Post
+            </h3>
+            <!-- random post start here -->
+            <div class="space-y-2">
+              <a href="#" class="flex group">
+                <div class="flex-shrink-0">
+                  <img
+                    src="/src/images/img-1.jpg"
+                    alt="img"
+                    class="w-20 h-14 rounded object-cover"
+                  />
+                </div>
+                <div class="flex-grow pl-3">
+                  <h5
+                    class="text-sm leading-5 fort-roboto font-semibold group-hover:text-blue-500 transition"
+                  >
+                    Lorem ipsum dolor sit amet at atque excepturi
+                  </h5>
+                  <div class="flex text-gray-400 text-sm items-center">
+                    <span class="mr-1 text-xs">
+                      <i class="fas fa-clock"></i>
+                    </span>
+                    jan 1, 2021
+                  </div>
+                </div>
+              </a>
+
+              <a href="#" class="flex group">
+                <div class="flex-shrink-0">
+                  <img
+                    src="/src/images/img-2.jpg"
+                    alt="img"
+                    class="w-20 h-14 rounded object-cover"
+                  />
+                </div>
+                <div class="flex-grow pl-3">
+                  <h5
+                    class="text-sm leading-5 fort-roboto font-semibold group-hover:text-blue-500 transition"
+                  >
+                    Lorem ipsum dolor sit amet Saepe sequi sed unde!
+                  </h5>
+                  <div class="flex text-gray-400 text-sm items-center">
+                    <span class="mr-1 text-xs">
+                      <i class="fas fa-clock"></i>
+                    </span>
+                    jan 1, 2021
+                  </div>
+                </div>
+              </a>
+
+              <a href="#" class="flex group">
+                <div class="flex-shrink-0">
+                  <img
+                    src="/src/images/img-3.jpg"
+                    alt="img"
+                    class="w-20 h-14 rounded object-cover"
+                  />
+                </div>
+                <div class="flex-grow pl-3">
+                  <h5
+                    class="text-sm leading-5 fort-roboto font-semibold group-hover:text-blue-500 transition"
+                  >
+                    Lorem ipsum dolor sit amet quo cumque officia saepe?
+                  </h5>
+                  <div class="flex text-gray-400 text-sm items-center">
+                    <span class="mr-1 text-xs">
+                      <i class="fas fa-clock"></i>
+                    </span>
+                    jan 1, 2021
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="flex group">
+                <div class="flex-shrink-0">
+                  <img
+                    src="/src/images/img-3.jpg"
+                    alt="img"
+                    class="w-20 h-14 rounded object-cover"
+                  />
+                </div>
+                <div class="flex-grow pl-3">
+                  <h5
+                    class="text-sm leading-5 fort-roboto font-semibold group-hover:text-blue-500 transition"
+                  >
+                    Lorem ipsum dolor sit amet quo cumque officia saepe?
+                  </h5>
+                  <div class="flex text-gray-400 text-sm items-center">
+                    <span class="mr-1 text-xs">
+                      <i class="fas fa-clock"></i>
+                    </span>
+                    jan 1, 2021
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="flex group">
+                <div class="flex-shrink-0">
+                  <img
+                    src="/src/images/img-3.jpg"
+                    alt="img"
+                    class="w-20 h-14 rounded object-cover"
+                  />
+                </div>
+                <div class="flex-grow pl-3">
+                  <h5
+                    class="text-sm leading-5 fort-roboto font-semibold group-hover:text-blue-500 transition"
+                  >
+                    Lorem ipsum dolor sit amet quo cumque officia saepe?
+                  </h5>
+                  <div class="flex text-gray-400 text-sm items-center">
+                    <span class="mr-1 text-xs">
+                      <i class="fas fa-clock"></i>
+                    </span>
+                    jan 1, 2021
+                  </div>
+                </div>
+              </a>
+            </div>
+            <!-- random post end here -->
+          </div>
+
+          <div class="bg-white shadow-sm rounded-sm p-4 mt-7">
+            <h3 class="text-xl font-semibold text-gray-700 font-roboto mb-3">
+              Subscribe Our Newslatter
+            </h3>
+
+            <!-- social links start  here  -->
+            <div class="text-gray-700 space-y-2">
+              <div class="flex">
+                <div class="">
+                  <input
+                    type="email"
+                    placeholder="Type Your Email"
+                    class="w-40 bg-gray-200 p-1 outline-none"
+                  />
+                </div>
+                <div class="w-20 bg-black outline-none">
+                  <button class="text-white p-1">Subscribe</button>
+                </div>
+              </div>
+            </div>
+            <!-- social links end  here  -->
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

@@ -9,6 +9,9 @@ module.exports = {
       xl:'1200px',
     },
     extend: {
+      fontSize:{
+        'xxs':'9px'
+      },
       fontFamily:{
         'poppins':['Poppins', 'sans-serif'],
         'roboto':['Roboto', 'sans-serif'],
