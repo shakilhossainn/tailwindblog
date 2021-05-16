@@ -12,6 +12,9 @@ module.exports = {
       fontSize:{
         'xxs':'9px'
       },
+      width:{
+        'full-nav':['-webkit-fill-available',' -moz-available','-ms-available']
+      },
       fontFamily:{
         'poppins':['Poppins', 'sans-serif'],
         'roboto':['Roboto', 'sans-serif'],

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
 <body class="font-poppins text-gray-600">
-    <nav class="bg-white shadow-2xl ">
+    <nav class="bg-white shadow-2xl w-full-nav fixed z-10">
         <div class="container mx-auto px-4 flex items-center py-3">
             <div class="w-40">
                 <a href="index.html">
@@ -43,7 +43,7 @@
                 </span>
                 <input type="text" name="search" class="block w-full border-none rounded-3xl pl-11 pr-2 py-2 focus:outline-none bg-gray-100 text-sm text-gray-700" placeholder="Search Post.......">
 
-                <div class="absolute bg-white p-2  shadow-2xl rounded-md ">
+                <div class="absolute bg-white p-2  shadow-2xl rounded-md hidden">
                     <a href="#" class="flex group m-4">
                         <div class="flex-shrink-0">
                             <img src="/src/images/img-1.jpg" alt="img" class="w-16 h-12 rounded object-cover">
@@ -88,9 +88,9 @@
             </div>
         </div>
     </nav>
-    <main class="py-6 bg-gray-100 min-h-screen">
-        <div class="container mx-auto mb-6">
-            <div class="flex">
+    <main class="py-6 bg-gray-100 min-h-screen ">
+        <div class="container mx-auto mb-5">
+            <div class="flex mt-12">
                 <div class="w-36 m-2 rounded-lg hover:text-blue-500 transition shadow-lg">
                     <a href="">
                         <img src="/src/images/img-4.jpg" alt="" class="h-20 w-full object-cover">
