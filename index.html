@@ -17,7 +17,7 @@
                     <h1 class="text-2xl font-bold">Logo</h1>
                 </a>
             </div>
-            <div class="ml-12 flex space-x-5">
+            <div class="ml-12 flex space-x-5 hidden lg:flex">
                 <a href="index.html" class="flex items-center font-semibold text-sm hover:text-blue-500 transition">
                     <span class="mr-2">
                         <i class="fas fa-home"></i>
@@ -37,11 +37,11 @@
                     Contact Us
                 </a>
             </div>
-            <div class="relative ml-auto">
+            <div class="relative ml-auto hidden lg:block">
                 <span class="absolute left-3 top-2 text-sm text-gray-500">
                     <i class="fas fa-search"></i>
                 </span>
-                <input type="text" name="search" class="block w-full border-none rounded-3xl pl-11 pr-2 py-2 focus:outline-none bg-gray-100 text-sm text-gray-700" placeholder="Search Post.......">
+                <input type="text" name="search" class="block lg:w-64 w-full border-none rounded-3xl pl-11 pr-2 py-2 focus:outline-none bg-gray-100 text-sm text-gray-700" placeholder="Search Post.......">
 
                 <div class="absolute bg-white p-2  shadow-2xl rounded-md hidden">
                     <a href="#" class="flex group m-4">
@@ -78,7 +78,7 @@
                     </a>
                 </div>
             </div>
-            <div class="ml-5">
+            <div class="lg:ml-5 ml-auto">
                 <a href="" class="flex items-center text-sm font-semibold hover:text-blue-500 transition">
                     <span class="mr-2">
                         <i class="fas fa-user"></i>
@@ -86,67 +86,74 @@
                     login/Register
                 </a>
             </div>
+            <div class="ml-4 block xl:hidden text-xl text-gray-700 cursor-pointer hover:text-blue-500 transition" id="sidebar">
+                <i class="fas fa-bars"></i>
+            </div>
         </div>
     </nav>
     <main class="py-6 bg-gray-100 min-h-screen ">
-        <div class="container mx-auto mb-5">
-            <div class="flex mt-12">
+
+        <!-- fachard post start here -->
+        <div class="container mx-auto mb-5 mt-12">
+            <div class="flex overflow-scroll">
                 <div class="w-36 m-2 rounded-lg hover:text-blue-500 transition shadow-lg">
                     <a href="">
-                        <img src="/src/images/img-4.jpg" alt="" class="h-20 w-full object-cover">
-                        <p class="text-xs bg-white p-2 font-semibold">Lorem ipsum dolor sit amet consectetur  ullam </p>
+                        <img src="/src/images/img-4.jpg" alt="" class="md:h-20 h-12 w-full object-cover">
+                        <p class="md:text-xs text-xxs bg-white p-2 font-semibold     text-justify">Lorem ipsum dolor sit amet consectetur  ullam </p>
                     </a>
                 </div>
 
 
                 <div class="w-36 m-2 rounded-lg hover:text-blue-500 transition shadow-lg">
                     <a href="">
-                        <img src="/src/images/img-4.jpg" alt="" class="h-20 w-full object-cover">
-                        <p class="text-xs bg-white p-2 font-semibold">Lorem ipsum dolor sit amet consectetur  ullam </p>
+                        <img src="/src/images/img-4.jpg" alt="" class="md:h-20 h-12 w-full object-cover">
+                        <p class="md:text-xs text-xxs bg-white p-2 font-semibold text-justify">Lorem ipsum dolor sit amet consectetur  ullam </p>
                     </a>
                 </div>
 
                 <div class="w-36 m-2 rounded-lg hover:text-blue-500 transition shadow-lg">
                     <a href="">
-                        <img src="/src/images/img-2.jpg" alt="" class="h-20 w-full object-cover">
-                        <p class="text-xs bg-white p-2 font-semibold">Lorem ipsum dolor sit amet consectetur  ullam </p>
+                        <img src="/src/images/img-2.jpg" alt="" class="md:h-20 h-12 w-full object-cover">
+                        <p class="md:text-xs text-xxs bg-white p-2 font-semibold text-justify">Lorem ipsum dolor sit amet consectetur  ullam </p>
                     </a>
                 </div>
 
                 <div class="w-36 m-2 rounded-lg hover:text-blue-500 transition shadow-lg">
                     <a href="">
-                        <img src="/src/images/img-4.jpg" alt="" class="h-20 w-full object-cover">
-                        <p class="text-xs bg-white p-2 font-semibold">Lorem ipsum dolor sit amet consectetur  ullam </p>
+                        <img src="/src/images/img-4.jpg" alt="" class="md:h-20 h-12 w-full object-cover">
+                        <p class="md:text-xs text-xxs bg-white p-2 font-semibold text-justify">Lorem ipsum dolor sit amet consectetur  ullam </p>
                     </a>
                 </div><div class="w-36 m-2 rounded-lg hover:text-blue-500 transition shadow-lg">
                     <a href="">
-                        <img src="/src/images/img-5.jpg" alt="" class="h-20 w-full object-cover">
-                        <p class="text-xs bg-white p-2 font-semibold">Lorem ipsum dolor sit amet consectetur  ullam </p>
+                        <img src="/src/images/img-5.jpg" alt="" class="md:h-20 h-12 w-full object-cover">
+                        <p class="md:text-xs text-xxs bg-white p-2 font-semibold text-justify">Lorem ipsum dolor sit amet consectetur  ullam </p>
                     </a>
                 </div>
                 <div class="w-36 m-2 rounded-lg hover:text-blue-500 transition shadow-lg">
                     <a href="">
-                        <img src="/src/images/img-9.jpg" alt="" class="h-20 w-full object-cover">
-                        <p class="text-xs bg-white p-2 font-semibold">Lorem ipsum dolor sit amet consectetur  ullam </p>
+                        <img src="/src/images/img-9.jpg" alt="" class="md:h-20 h-12 w-full object-cover">
+                        <p class="md:text-xs text-xxs bg-white p-2 font-semibold text-justify">Lorem ipsum dolor sit amet consectetur  ullam </p>
                     </a>
                 </div>
                 <div class="w-36 m-2 rounded-lg hover:text-blue-500 transition shadow-lg">
                     <a href="">
-                        <img src="/src/images/img-7.jpg" alt="" class="h-20 w-full object-cover">
-                        <p class="text-xs bg-white p-2 font-semibold">Lorem ipsum dolor sit amet consectetur  ullam </p>
+                        <img src="/src/images/img-7.jpg" alt="" class="md:h-20 h-12 w-full object-cover">
+                        <p class="md:text-xs text-xxs bg-white p-2 font-semibold text-justify">Lorem ipsum dolor sit amet consectetur  ullam </p>
                     </a>
                 </div>
                 <div class="w-36 m-2 rounded-lg hover:text-blue-500 transition shadow-lg">
                     <a href="">
-                        <img src="/src/images/img-1.jpg" alt="" class="h-20 w-full object-cover">
-                        <p class="text-xs bg-white p-2 font-semibold">Lorem ipsum dolor sit amet consectetur  ullam </p>
+                        <img src="/src/images/img-1.jpg" alt="" class="md:h-20 h-12 w-full object-cover">
+                        <p class="md:text-xs text-xxs bg-white p-2 font-semibold text-justify">Lorem ipsum dolor sit amet consectetur  ullam </p>
                     </a>
                 </div>
 
             </div>
         </div>
-        <div class="container mx-auto px-4 flex">
-            <div class="w-3/12">
+  <!-- fachard post end here -->
+
+        <div class="container mx-auto px-4 flex  flex-wrap lg:flex-nowrap">
+            <div class="w-3/12 hidden xl:block">
                 <div class="bg-white shadow-sm rounded-sm p-4">
                     <h3 class="text-xl font-semibold text-gray-700 font-roboto mb-3">Categories</h3>
 
@@ -274,9 +281,9 @@
                     <!-- random post end here -->
                 </div>
             </div>
-            <div class="w-6/12 mx-6">
+            <div class="xl:w-6/12 lg:w-8/12 w-full lg:mx-6">
                 <!-- recent content start here  -->
-                <div class="grid grid-cols-2 gap-4">
+                <div class="grid md:grid-cols-2 gap-4 grid-cols-1 ">
 
 
                     <div class="bg-white p-4 shadow-sm rounded-sm">
@@ -507,7 +514,7 @@
                 </div>
                 <!-- recent content end here  -->
             </div>
-            <div class="w-3/12">
+            <div class="xl:w-3/12 lg:w-4/12 w-full  hidden lg:block ">
                 <div class="bg-white shadow-sm rounded-sm p-4">
                     <h3 class="text-xl font-semibold text-gray-700 font-roboto mb-3">Follow Us Our Social Links</h3>
 
@@ -630,7 +637,7 @@
                     <!-- random post end here -->
                 </div>
 
-                <div class="bg-white shadow-sm rounded-sm p-4 mt-7">
+                <div class="bg-white shadow-sm rounded-sm p-4 mt-6">
                     <h3 class="text-xl font-semibold text-gray-700 font-roboto mb-3">Subscribe Our Newslatter</h3>
 
                     <!-- social links start  here  -->
@@ -649,5 +656,207 @@
             </div>
         </div>
     </main>
+
+<!-- side bar start here -->
+    <div class="fixed w-full h-full bg-black left-0 top-0  z-10 hidden  bg-opacity-25 " id="sidebar_wapper">
+        <div class="fixed w-72 h-full bg-white shadow-md z-10 flex flex-col p-4 -left-72 transition-all duration-700" id="sidebar_option">
+         
+
+            <div class="relative ml-auto lg:hidden mb-4">
+                <span class="absolute left-3 top-2 text-sm text-gray-500">
+                    <i class="fas fa-search"></i>
+                </span>
+                <input type="text" name="search" class="block lg:w-64 w-full border-none rounded-3xl pl-11 pr-2 py-2 focus:outline-none bg-gray-100 text-sm text-gray-700" placeholder="Search Post.......">
+
+                <div class="absolute bg-white p-2  shadow-2xl rounded-md hidden">
+                    <a href="#" class="flex group m-4">
+                        <div class="flex-shrink-0">
+                            <img src="/src/images/img-1.jpg" alt="img" class="w-16 h-12 rounded object-cover">
+                        </div>
+                        <div class="flex-grow pl-3">
+                            <h5 class="text-sm leading-5 fort-roboto font-semibold group-hover:text-blue-500 transition">
+                                Lorem ipsum dolor sit amet at atque excepturi
+                            </h5>
+                        </div>
+                    </a>
+
+                    <a href="#" class="flex group m-4">
+                        <div class="flex-shrink-0">
+                            <img src="/src/images/img-1.jpg" alt="img" class="w-16 h-12 rounded object-cover">
+                        </div>
+                        <div class="flex-grow pl-3">
+                            <h5 class="text-sm leading-5 fort-roboto font-semibold group-hover:text-blue-500 transition">
+                                Lorem ipsum dolor sit amet at atque excepturi
+                            </h5>
+                        </div>
+                    </a>
+                 
+                    <a href="#" class="flex group m-4">
+                        <div class="flex-shrink-0">
+                            <img src="/src/images/img-1.jpg" alt="img" class="w-16 h-12 rounded object-cover">
+                        </div>
+                        <div class="flex-grow pl-3">
+                            <h5 class="text-sm leading-5 fort-roboto font-semibold group-hover:text-blue-500 transition">
+                                Lorem ipsum dolor sit amet at atque excepturi
+                            </h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="space-y-2 flex  flex-col lg:hidden mb-2">
+                <a href="index.html" class="flex items-start font-semibold text-sm hover:text-blue-500 transition">
+                    <span class="mr-2">
+                        <i class="fas fa-home"></i>
+                    </span>
+                    Home
+                </a>
+                <a href="index.html" class="flex items-start font-semibold text-sm hover:text-blue-500 transition">
+                    <span class="mr-2">
+                        <i class="fas fa-file-alt"></i>
+                    </span>
+                    About
+                </a>
+                <a href="index.html" class="flex items-start font-semibold text-sm hover:text-blue-500 transition">
+                    <span class="mr-2">
+                        <i class="fas fa-phone"></i>
+                    </span>
+                    Contact Us
+                </a>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-700 font-roboto mb-1">Categories</h3>
+            <!-- categoryies start  here  -->
+            <div class="text-gray-700 space-y-2">
+                <a href="" class="flex items-center text-semibold leading-4 p-1 uppercase text-sm hover:text-blue-500 transition">
+                    <span class="mr-2">
+                        <i class="fas fa-folder-open"></i>
+                    </span>
+                    <span>php</span>
+                    <span class="font-normal ml-auto">[12]</span>
+                </a>
+            </div>
+            <div class="text-gray-700 space-y-2">
+                <a href="" class="flex items-center text-semibold leading-4 p-1 uppercase text-sm hover:text-blue-500 transition">
+                    <span class="mr-2">
+                        <i class="fas fa-folder-open"></i>
+                    </span>
+                    <span>javascript</span>
+                    <span class="font-normal ml-auto">[12]</span>
+                </a>
+            </div>
+            <div class="text-gray-700 space-y-2">
+                <a href="" class="flex items-center text-semibold leading-4 p-1 uppercase text-sm hover:text-blue-500 transition">
+                    <span class="mr-2">
+                        <i class="fas fa-folder-open"></i>
+                    </span>
+                    <span>python</span>
+                    <span class="font-normal ml-auto">[12]</span>
+                </a>
+            </div>
+            <div class="text-gray-700 space-y-2">
+                <a href="" class="flex items-center text-semibold leading-4 p-1 uppercase text-sm hover:text-blue-500 transition">
+                    <span class="mr-2">
+                        <i class="fas fa-folder-open"></i>
+                    </span>
+                    <span>vue.js</span>
+                    <span class="font-normal ml-auto">[12]</span>
+                </a>
+            </div>
+            <div class="text-gray-700 space-y-2">
+                <a href="" class="flex items-center text-semibold leading-4 p-1 uppercase text-sm hover:text-blue-500 transition">
+                    <span class="mr-2">
+                        <i class="fas fa-folder-open"></i>
+                    </span>
+                    <span>react.js</span>
+                    <span class="font-normal ml-auto">[12]</span>
+                </a>
+            </div>
+            <div class="text-gray-700 space-y-2">
+                <a href="" class="flex items-center text-semibold leading-4 p-1 uppercase text-sm hover:text-blue-500 transition">
+                    <span class="mr-2">
+                        <i class="fas fa-folder-open"></i>
+                    </span>
+                    <span>Laravel</span>
+                    <span class="font-normal ml-auto">[12]</span>
+                </a>
+            </div>
+            <div class="text-gray-700 space-y-2">
+                <a href="" class="flex items-center text-semibold leading-4 p-1 uppercase text-sm hover:text-blue-500 transition">
+                    <span class="mr-2">
+                        <i class="fas fa-folder-open"></i>
+                    </span>
+                    <span>django</span>
+                    <span class="font-normal ml-auto">[12]</span>
+                </a>
+            </div>
+             <!-- categoryies end  here  -->
+
+             <div class=" shadow-sm rounded-sm p-4 lg:hidden">
+                <h3 class="text-lg font-semibold text-gray-700 font-roboto mb-3">Follow Us Our Social Links</h3>
+
+                <!-- social links start  here  -->
+                <div class="text-gray-700 space-y-2">
+                    <div class="flex justify-between text-3xl">
+                        <div class="text-blue-900 hover:text-blue-800 transition">
+                            <a href="https://www.facebook.com/shakilhossain.cse" target="_blank">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </div>
+                        <div class="text-blue-700 hover:text-blue-600 transition">
+                            <a href="#">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="text-indigo-400 hover:text-blue-300 transition">
+                            <a href="#">
+                                <i class="fab fa-twitter-square"></i>
+                            </a>
+                        </div>
+                        <div class="text-red-700 hover:text-red-600 transition">
+                            <a href="#">
+                                <i class="fab fa-youtube-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                 <!-- social links end  here  -->
+            </div>
+            <div class="bg-white shadow-sm rounded-sm p-4 lg:hidden">
+                <h3 class="text-lg font-semibold text-gray-700 font-roboto mb-3">Subscribe Our Newslatter</h3>
+
+                <!-- social links start  here  -->
+                <div class="text-gray-700 space-y-2">
+                   <div class="flex">
+                       <div class="">
+                            <input type="email" placeholder="Type Your Email" class="w-40 bg-gray-200 p-1 outline-none">
+                        </div>
+                        <div class="w-20 bg-black outline-none">
+                            <button class="text-white p-1 ">Subscribe</button>
+                        </div>
+                   </div>
+                </div>
+                 <!-- social links end  here  -->
+            </div>
+        </div>
+
+    </div>
+<!-- side bar end here -->
+    <script>
+        let button = document.getElementById('sidebar');
+        let sidebar_wapper = document.getElementById('sidebar_wapper');
+        let sidebar = document.getElementById('sidebar_option');
+        
+        button.addEventListener('click',function () {
+            sidebar_wapper.classList.remove('hidden')
+            sidebar.classList.remove('-left-72')
+            sidebar.classList.add('left-0')
+        })
+        document.body.addEventListener('click',function (e) {
+            if (e.target.id === 'sidebar_wapper') {
+                sidebar_wapper.classList.add('hidden')
+                sidebar.classList.add('-left-72')
+                sidebar.classList.remove('left-0')
+            }
+        })
+    </script>
 </body>
 </html>
